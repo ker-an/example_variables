@@ -11,6 +11,11 @@ variable "sleep_seconds" {
   description = "A locally executed script will wait this amout of time between retries"
 }
 
+variable "is_boolean" {
+  type = boolean
+  description = "Must be true or false."
+}
+
 variable "availability_zones" {
   type = list(string)
   description = "A list of chosen aws availability zones."
