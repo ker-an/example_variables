@@ -12,7 +12,7 @@ variable "sleep_seconds" {
 }
 
 variable "is_boolean" {
-  type = boolean
+  type = bool
   description = "Must be true or false."
 }
 
