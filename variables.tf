@@ -24,6 +24,7 @@ variable "availability_zones" {
 variable "secret_key" {
   type = string
   sensitive = true
+  hcl = true
   description = "Your secret key."
 }
 
