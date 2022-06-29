@@ -59,3 +59,7 @@ variable "admin_user" {
   type = map
   description = "{ \"name\" = \"<YOUR_NAME>\", \"email\" = \"<YOUR_EMAIL>\"}"
 }
+
+variable "no_type" {
+  description = "no type given in config"
+}
